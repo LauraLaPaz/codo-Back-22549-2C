@@ -1,0 +1,10 @@
+CREATE TABLE persona(
+	id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	nombre VARCHAR(40) NOT NULL,
+	apellido VARCHAR(40) NOT NULL,
+	edad TINYINT(2) NOT NULL,
+	fecha TIMESTAMP NOT NULL DEFAULT current_timestamp,
+	provincia VARCHAR(30) NOT NULL
+);
+
+SELECT * FROM persona;
